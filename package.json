@@ -40,7 +40,8 @@
   },
   "scripts": {
     "test": "mocha test",
-    "install": "node-gyp-build"
+    "install": "node-gyp-build",
+    "build": "prebuildify --napi"
   },
   "license": "MIT",
   "main": "index.js",
