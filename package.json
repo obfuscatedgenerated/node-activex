@@ -35,17 +35,22 @@
     "type": "git",
     "url": "git://github.com/durs/node-activex.git"
   },
-  "dependencies": {},
-  "devDependencies": {},
   "engines": {
     "node": ">= 10.0.0"
   },
   "scripts": {
-    "test": "mocha test"
+    "test": "mocha test",
+    "install": "node-gyp-build"
   },
   "license": "MIT",
   "main": "index.js",
   "os": [
     "win32"
-  ]
+  ],
+  "devDependencies": {
+    "prebuildify": "^5.0.0"
+  },
+  "dependencies": {
+    "node-gyp-build": "^4.5.0"
+  }
 }
