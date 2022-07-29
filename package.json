@@ -41,7 +41,7 @@
   "scripts": {
     "test": "mocha test",
     "install": "node-gyp-build",
-    "build": "prebuildify --napi"
+    "build": "prebuildify --napi --target 10.16.0"
   },
   "license": "MIT",
   "main": "index.js",
