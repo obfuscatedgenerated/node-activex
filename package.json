@@ -41,7 +41,7 @@
   "scripts": {
     "test": "mocha test",
     "install": "node-gyp-build",
-    "build": "prebuildify --napi --electron-compat"
+    "build": "prebuildify --napi --electron-compat && prebuildify -t electron@18.3.5"
   },
   "license": "MIT",
   "main": "index.js",
