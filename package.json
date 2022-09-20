@@ -40,7 +40,7 @@
   },
   "scripts": {
     "test": "mocha test",
-    "build": "prebuildify -t electron@18.3.5"
+    "build": "prebuildify --napi"
   },
   "license": "MIT",
   "main": "index.js",
