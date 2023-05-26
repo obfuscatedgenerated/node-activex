@@ -40,7 +40,7 @@
   },
   "scripts": {
     "test": "mocha test",
-    "build": "prebuildify -t electron@19.0.17"
+    "build": "prebuildify -t electron@22.3.5"
   },
   "license": "MIT",
   "main": "index.js",
@@ -48,9 +48,9 @@
     "win32"
   ],
   "devDependencies": {
-    "prebuildify": "^5.0.0"
+    "prebuildify": "^5.0.1"
   },
   "dependencies": {
-    "node-gyp-build": "^4.5.0"
+    "node-gyp-build": "^4.6.0"
   }
 }

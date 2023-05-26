@@ -12,5 +12,8 @@
       'dependencies': [      
       ]
     }
-  ]
+  ],
+  'variables': {
+      'openssl_fips': ''
+  }
 }
